@@ -1,0 +1,6 @@
+[submodule "kbd"]
+	path = kbd
+	url = git@github.com:foostan/kbd.git
+[submodule "OPL_Kicad_Library"]
+	path = OPL_Kicad_Library
+	url = git@github.com:Seeed-Studio/OPL_Kicad_Library.git
