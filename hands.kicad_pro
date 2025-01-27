@@ -471,8 +471,8 @@
       "plot": "../hands_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "step": "../hands_pcb.step",
+      "svg": "../",
       "vrml": ""
     },
     "page_layout_descr_file": ""
