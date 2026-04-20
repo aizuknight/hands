@@ -1,6 +1,6 @@
-[submodule "kbd"]
-	path = kbd
+[submodule "pcb/kbd"]
+	path = pcb/kbd
 	url = git@github.com:foostan/kbd.git
-[submodule "OPL_Kicad_Library"]
-	path = OPL_Kicad_Library
+[submodule "pcb/OPL_Kicad_Library"]
+	path = pcb/OPL_Kicad_Library
 	url = git@github.com:Seeed-Studio/OPL_Kicad_Library.git
