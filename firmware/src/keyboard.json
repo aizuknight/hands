@@ -1,0 +1,71 @@
+{
+    "manufacturer": "aizuknight",
+    "keyboard_name": "hands",
+    "maintainer": "aizuknight",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "cols": ["GP3", "GP4", "GP2", "GP1", "GP0", "GP6", "GP29", "GP28", "GP27", "GP26"],
+        "rows": ["GP3", "GP4", "GP2", "GP1", "GP0", "GP6", "GP29", "GP28", "GP27", "GP26"]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0002",
+        "vid": "0x8823"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "SW9", "matrix": [9, 0], "x": 0, "y": 0},
+                {"label": "SW8", "matrix": [8, 0], "x": 1, "y": 0},
+                {"label": "SW7", "matrix": [7, 0], "x": 2, "y": 0},
+                {"label": "SW6", "matrix": [6, 0], "x": 3, "y": 0},
+                {"label": "SW5", "matrix": [5, 0], "x": 4, "y": 0},
+                {"label": "SW4", "matrix": [4, 0], "x": 5, "y": 0},
+                {"label": "SW3", "matrix": [3, 0], "x": 6, "y": 0},
+                {"label": "SW2", "matrix": [2, 0], "x": 7, "y": 0},
+                {"label": "SW1", "matrix": [1, 0], "x": 8, "y": 0},
+                {"label": "SW10", "matrix": [0, 1], "x": 9, "y": 0},
+
+                {"label": "SW18", "matrix": [9, 1], "x": 0, "y": 1},
+                {"label": "SW17", "matrix": [8, 1], "x": 1, "y": 1},
+                {"label": "SW16", "matrix": [7, 1], "x": 2, "y": 1},
+                {"label": "SW15", "matrix": [6, 1], "x": 3, "y": 1},
+                {"label": "SW14", "matrix": [5, 1], "x": 4, "y": 1},
+                {"label": "SW13", "matrix": [4, 1], "x": 5, "y": 1},
+                {"label": "SW12", "matrix": [3, 1], "x": 6, "y": 1},
+                {"label": "SW11", "matrix": [2, 1], "x": 7, "y": 1},
+                {"label": "SW20", "matrix": [1, 2], "x": 8, "y": 1},
+                {"label": "SW19", "matrix": [0, 2], "x": 9, "y": 1},
+
+                {"label": "SW27", "matrix": [9, 2], "x": 0, "y": 2},
+                {"label": "SW26", "matrix": [8, 2], "x": 1, "y": 2},
+                {"label": "SW25", "matrix": [7, 2], "x": 2, "y": 2},
+                {"label": "SW24", "matrix": [6, 2], "x": 3, "y": 2},
+                {"label": "SW22", "matrix": [5, 2], "x": 4, "y": 2},
+                {"label": "SW23", "matrix": [4, 2], "x": 5, "y": 2},
+                {"label": "SW21", "matrix": [3, 2], "x": 6, "y": 2},
+                {"label": "SW30", "matrix": [2, 3], "x": 7, "y": 2},
+                {"label": "SW29", "matrix": [1, 3], "x": 8, "y": 2},
+                {"label": "SW28", "matrix": [0, 3], "x": 9, "y": 2},
+
+                {"label": "SW34", "matrix": [7, 3], "x": 0, "y": 3},
+                {"label": "SW33", "matrix": [6, 3], "x": 1, "y": 3},
+                {"label": "SW32", "matrix": [5, 3], "x": 2, "y": 3},
+                {"label": "SW31", "matrix": [4, 3], "x": 3, "y": 3},
+                {"label": "SW36", "matrix": [3, 4], "x": 4, "y": 3},
+                {"label": "SW35", "matrix": [2, 4], "x": 5, "y": 3}
+            ]
+        }
+    }
+}

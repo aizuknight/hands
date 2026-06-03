@@ -1,0 +1,3 @@
+#define MATRIX_MASKED
+#define TAPPING_TERM 150
+
